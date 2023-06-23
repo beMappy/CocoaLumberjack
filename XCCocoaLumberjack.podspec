@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
 
   s.name     = 'XCCocoaLumberjack'
-  s.version  = '3.7.4-xc14-3'
+  s.version  = '3.7.4-SPM'
   s.license  = 'BSD'
   s.summary  = 'A fast & simple, yet powerful & flexible logging framework for macOS, iOS, tvOS and watchOS.'
   s.homepage = 'https://github.com/CocoaLumberjack/CocoaLumberjack'
@@ -15,8 +15,6 @@ Pod::Spec.new do |s|
                   'atomic operations, and the dynamic nature of the objective-c runtime.'
 
   s.ios.deployment_target     = '9.0'
-  s.osx.deployment_target     = '10.10'
-  s.tvos.deployment_target    = '9.0'
 
   s.cocoapods_version = '>= 1.4.0'
   s.requires_arc   = true
